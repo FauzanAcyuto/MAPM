@@ -15,6 +15,39 @@ There are some requirements for this project:
 
 <img width="945" height="657" alt="image" src="https://github.com/user-attachments/assets/5b2ae8bf-a55d-4da3-89e6-0edcef14d501" />
 
+## Project Management UI
+
+For this UI I decided to use NocoDB because of the following:
+1. It connects straight to a database table, which saves time and energy for the integration
+2. 
+
+### 1. Main task tables
+I got the product and task management setup the way I like it, each product has a one to many relationship with tasks, each with their own metadata, comments, and descriptions.
+Grouped by team members
+<img width="1306" height="593" alt="image" src="https://github.com/user-attachments/assets/43f794b8-f962-43c6-bcdd-ac5f083a9fc1" />
+
+Grouped by product
+
+<img width="636" height="707" alt="image" src="https://github.com/user-attachments/assets/62c1545e-c472-4138-b21d-a5901ac0aad3" />
+
+Grouped by business unit
+<img width="724" height="402" alt="image" src="https://github.com/user-attachments/assets/adfa128f-06cb-4025-bac5-a57a75570afd" />
+
+
+### 2. Product overview & Registration
+Kanban board for the product development lifecycle
+<img width="1063" height="429" alt="image" src="https://github.com/user-attachments/assets/8277c64d-0d79-4e40-9b93-b2991ff9c876" />
+
+Product registration form
+<img width="669" height="694" alt="image" src="https://github.com/user-attachments/assets/2612da5a-1cd3-4bb5-a867-f749dec0d00f" />
+
+
+### 3. User Management
+
+
+## Executive Summary Dashboard
+
+
 
 ## Database
 I chose to host my master database in AWS RDS using postgresql, because of the simple reason that it's in my free tier.
