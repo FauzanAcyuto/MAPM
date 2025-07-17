@@ -35,7 +35,7 @@ I had debian installed in an old PC I had lying around with the following specs
 2. RAM: 8GB
 3. Storage: 125GB NVME M2 + 500+GB HDD
 
-This sucked as a high availability server since a power or network outage would just take down the services immediately, but as you will see, that won't be a problem in the future.
+This sucked as a in terms of availability since a power or network outage would just take down the services immediately, but as you will see, that won't be a problem in the future.
 I decided to use this PC as the main server, with smaller EC2 instance as a failover in case the previously mentioned catastrophies occur.
 
 
