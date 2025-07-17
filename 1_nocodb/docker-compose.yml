@@ -1,0 +1,13 @@
+services: 
+  nocodb: 
+    environment:
+      NC_DB_JSON_FILE: "/home/ec2-user/docker/nocodb/docker-compose/4_pg_ext/.dbconfig-nocodb.json"
+    image: "nocodb/nocodb:latest"
+    ports: 
+      - "8085:8080"
+    restart: always
+    volumes: 
+      - "./dbconfig-nocodb.json:/home/ec2-user/docker/nocodb/docker-compose/4_pg_ext/.dbconfig-nocodb.json"
+      - "nc_data:/usr/app/data"
+volumes: 
+  nc_data: {}
