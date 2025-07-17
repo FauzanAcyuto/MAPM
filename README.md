@@ -31,6 +31,7 @@ Grouped by product
 <img width="636" height="707" alt="image" src="https://github.com/user-attachments/assets/62c1545e-c472-4138-b21d-a5901ac0aad3" />
 
 Grouped by business unit
+
 <img width="724" height="402" alt="image" src="https://github.com/user-attachments/assets/adfa128f-06cb-4025-bac5-a57a75570afd" />
 
 
